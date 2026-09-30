@@ -25,7 +25,7 @@ public class Exception1 {
         catch(ArrayIndexOutOfBoundsException e) {
         System.out.println("Error Number of argument");
         }
-        catch(Exception e){System.out.println("e");}
+        catch(Exception e){System.out.println(e);}
     }
     
 }
